@@ -22,6 +22,11 @@ namespace dz2
 
         private void buttonStep_Click(object sender, EventArgs e)
         {
+            if (textBoxN.Text.Length < 1) {
+                n = 3;
+                sizeBit = (int)(pictureBox.Width / n);
+                game = new Game(n);
+            }
             int i, j, v;
             try {
                 if (textBoxX.Text.Length < 1 || textBoxY.Text.Length < 1 || textBoxValue.Text.Length < 1)

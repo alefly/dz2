@@ -41,6 +41,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxN = new System.Windows.Forms.TextBox();
             this.buttonField = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -159,12 +160,22 @@
             this.buttonField.UseVisualStyleBackColor = false;
             this.buttonField.Click += new System.EventHandler(this.buttonField_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(474, 131);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(132, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "*Дефолтный размер 3х3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(616, 470);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonField);
             this.Controls.Add(this.textBoxN);
             this.Controls.Add(this.label6);
@@ -202,6 +213,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBoxN;
         private System.Windows.Forms.Button buttonField;
+        private System.Windows.Forms.Label label7;
     }
 }
 
